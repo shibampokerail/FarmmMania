@@ -12,8 +12,8 @@ function initEnemies(count) {
   }
   
   function getRandomCoordinatesOnFarm() {
-    let x = Math.random() * (windowWidth - getRelativeX(290) - getRelativeX(1157)) + getRelativeX(1257);
-    let y = Math.random() * (windowHeight - getRelativeY(190) - getRelativeY(282)) + getRelativeY(320);
+    let x = Math.random() * (colliderOriginalScreenWidth -getRelativeX(290) - getRelativeX(1157)) + getRelativeX(1257);
+    let y = Math.random() * (colliderOriginalScreenHeight - getRelativeY(190) - getRelativeY(282)) + getRelativeY(320);
     
     // Array of enemies
     const enemies = [worm, crow];
