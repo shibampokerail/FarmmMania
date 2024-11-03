@@ -60,15 +60,16 @@ function initiateConversationIfNeeded(){
         isMarket = false;
     }
 
-    if (Conversations[currentConversation][convoIndex]=='You earned 2$ of allowance from your father!'){
+    else if (Conversations[currentConversation][convoIndex]=='You earned 2$ of allowance from your father!'){
         allowance+=2;
+        convoIndex+=1;
     }
 
-    if ((currentConversation=="battleCrow" || currentConversation=="battleWorm") & convoIndex==3){
+    else if ((currentConversation=="battleCrow" || currentConversation=="battleWorm") & Conversations[currentConversation][convoIndex]=="Press 123 or 4 to select (press z to go back)"){
         convoIndex-=1;
     }
 
-    if ((currentConversation=="Market" & convoIndex==2)){
+    else if ((currentConversation=="Market" & convoIndex==2)){
         convoIndex-=1;
     }
 
