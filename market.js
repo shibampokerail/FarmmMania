@@ -3,7 +3,7 @@ let playerPlants = [];
 
 function Market(){
     
-    image(eggplant, 1200,500)
-    image(surprize, 500, 500)
+    image(eggplant, getRelativeX(1200),getRelativeY(500))
+    image(surprize, getRelativeX(500), getRelativeY(500))
 
 }
