@@ -40,7 +40,7 @@ function preload(){
     village_house = loadImage(`./assets/bg/House.png`);
 
     battle_bg = loadImage(`./assets/bg/battle_bg.jpg`);
-    market_bg  = loadImage(`/assets/bg/market.png`);
+    market_bg  = loadImage(`./assets/bg/market.png`);
 
     eggplant = loadImage(`./assets/plants/eggplant.gif`);
     surprize = loadImage(`./assets/plants/surprize.gif`);
