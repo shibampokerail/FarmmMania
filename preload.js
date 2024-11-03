@@ -33,7 +33,7 @@ function preload(){
     menuScreenMusic = loadSound('./assets/music/HomeScreen.mp3');
     pauseScreenMusic = loadSound('./assets/music/PauseMusic.mp3');
     gameMusic = loadSound('./assets/music/gameMusic.mp3');
-    battleMusic = loadSound('assets/music/battleMusic.mp3');
+    battleMusic = loadSound('./assets/music/battleMusic.mp3');
 
     village = loadImage(`./assets/bg/lvl1farm.gif`);
     village_overlay = loadImage(`./assets/bg/village_overlay.png`);
